@@ -1,0 +1,54 @@
+/* header button {
+    background-color: rgb(0, 145, 132) !important;
+} */
+
+body {
+    background-color: rgb(110, 112, 128) !important;
+}
+
+main .carousel-inner img {
+    max-height: 100vh;
+    object-fit: cover;
+   
+    
+}
+
+#carouselExampleControls .overlay{ 
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    
+}
+
+#footer{
+    background-image: linear-gradient(
+        90deg,
+        rgb(110, 112, 128) 0px,
+        rgb(39,59,71)50%,
+        black
+    );
+    padding: 10px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.cuerpo {
+    padding-top: 20px;
+    
+}
+
+.btn-default {
+    top: 25%;
+    left:25%; 
+    color: #999; 
+    background: #fffccc; 
+} 

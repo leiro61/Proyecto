@@ -24,6 +24,19 @@ main .carousel-inner img {
     color: white;
     
 }
+/* estilos carrousel circuitos */
+
+#carouselbotones1 .overlay{ 
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+    
+}
 
 #carouselbotones2 .overlay{ 
     position: absolute;
@@ -32,10 +45,23 @@ main .carousel-inner img {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.0);
     color: white;
     
 }
+
+#carouselbotones3 .overlay{ 
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.0);
+    color:white;
+    
+}
+/* fin de estilos carroucel circuitos */
 
 #footer{
     background-image: linear-gradient(
